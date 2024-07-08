@@ -32,8 +32,8 @@ def decrypt_key3(key):
 
 
 key_number = random.randint(3, 20)
-print(key_number)
-
-print(decrypt_key(key_number))
-print(decrypt_key2(key_number))
-print(decrypt_key3(key_number))
+print(f"Выпавшее число: {key_number}")
+print("Пароль:")
+print("Вариант 1:", decrypt_key(key_number))
+print("Вариант 2:", decrypt_key2(key_number))
+print("Вариант 3:", decrypt_key3(key_number))
